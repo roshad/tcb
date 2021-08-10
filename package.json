@@ -1,0 +1,16 @@
+{
+  "name": "cloudbase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "node run.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@cloudbase/js-sdk": "^1.7.0",
+    "@cloudbase/node-sdk": "^2.6.1"
+  }
+}

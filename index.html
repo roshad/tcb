@@ -1,0 +1,15 @@
+<meta charset="utf-8">
+<script src="https://imgcache.qq.com/qcloud/cloudbase-js-sdk/1.5.0/cloudbase.full.js"></script>
+<script>
+const app = cloudbase.init({
+ env: "lowcode-8gw3kj734483521d" // 此处填入您的环境ID
+});
+app
+ .auth()
+ .anonymousAuthProvider()
+ .signIn()
+ .then(() => {
+     alert("登录云开发成功！");
+ });
+</script>
+   Hello Cloudbase!
